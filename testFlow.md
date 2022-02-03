@@ -18,7 +18,9 @@ cd zion
 git add README.md
 ```
 
+```python
 git commit -m "Added a line"
+```
 
 ### If you get an auth error like this:
 
@@ -40,7 +42,7 @@ Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'growthemp@GrowthPC2.(none)')
 ```
 
-Here is what to do:
+- Here is what to do:
 
 ```python
 git config --global user.email "youremail@gmail.com"
@@ -50,7 +52,7 @@ git config --global user.email "youremail@gmail.com"
 git config --global user.name "Craig Conover"
 ```
 
-Now continue with the commit
+- Now continue with the commit
 
 ```python
 git commit -m "Added a line of code."
@@ -115,7 +117,7 @@ git push
 
 - On GitHub.com click on "Pull Requests"
 - Click on the ones that are open
-- If no conflicts then press "Merge pull request"
+- If there are no conflicts, then press "Merge pull request"
 - Then "Confirm merge"
 
 ### With Conflicts
